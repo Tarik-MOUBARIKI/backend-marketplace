@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 
 
-mongoose.connect('mongodb+srv://Taoufiq:Alsa2018el@cluster0.f15jo.mongodb.net/MarketPlaceDB?retryWrites=true&w=majority' , {
+mongoose.connect('mongodb+srv://TARIK:tarekm@cluster0.vagtk.mongodb.net/marketplace?retryWrites=true&w=majority' , {
   useNewUrlParser: true
 }).then(() => {
   console.log("Successfully connected to the database");    
